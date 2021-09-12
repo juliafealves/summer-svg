@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1552.61 980">
+<svg id="beach" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1552.61 980">
   <defs>
     <style>
       .cls-1, .cls-12, .cls-20 {
@@ -198,12 +198,15 @@
         animation-iteration-count: infinite;
         animation-direction: alternate;
       }
+
       #kayak-1, #kayak-2 {
         animation-name: move-kayak-1-2;
       }
+
       #kayak-3, #kayak-4 {
         animation-name: move-kayak-3-4;
       }
+
       #kayak-5 {
         animation-name: move-kayak-5;
       }
@@ -214,11 +217,17 @@
         animation-iteration-count: infinite;
         animation-direction: alternate;
       }
+
       #cloud-1, #cloud-2 {
         animation-name: move-cloud-left;
       }
+
       #cloud-3, #cloud-4 {
         animation-name: move-cloud-right;
+      }
+
+      #beach {
+        animation: load-page 2.5s ease-in-out forwards 1;
       }
 
       /** Animations */
@@ -242,10 +251,14 @@
           transform: translate(-400px);
         }
       }
-
       @keyframes move-cloud-right {
         to {
           transform: translate(400px);
+        }
+      }
+      @keyframes load-page {
+        from {
+          transform: translate(0, -2000px);
         }
       }
     </style>
