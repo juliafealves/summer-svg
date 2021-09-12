@@ -1,9 +1,17 @@
 body {
     margin: 0;
-    overflow-x: hidden;
     background-color: #FFEAD4;
+    overflow-x: hidden;
 }
 
 #container-header {
     width: 100vw;
+}
+
+#lettering {
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    margin-top: 10%;
+    transform: translate(-50%);
 }
