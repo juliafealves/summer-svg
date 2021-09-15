@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #FFEAD4;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #484848;
+}
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #BE253F;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+#container-header {
+    width: 100vw;
+}
+
+#lettering {
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    margin-top: 10%;
+    transform: translate(-50%);
+}
+
+#cards{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
