@@ -50,7 +50,18 @@ p {
 }
 
 #enjoy {
-    display: block;
     width: 60%;
-    margin: auto;
+    fill: white;
+    opacity: 50%;
+    position: absolute;
+    left: 20%;
+    margin-top: 20%;
+}
+
+#container-footer {
+    position: relative;
+}
+
+#container-footer div {
+    text-align: center;
 }
